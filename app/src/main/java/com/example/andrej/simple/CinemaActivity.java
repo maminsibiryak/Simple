@@ -88,8 +88,8 @@ public class CinemaActivity extends AppCompatActivity {
             listView = (ListView) findViewById(R.id.cinemaList);
 
 
-            String[] names = { "Иван", "Марья", "Петр", "Антон", "Даша", "Борис",
-                    "Костя", "Игорь", "Анна", "Денис", "Андрей" };
+            /*String[] names = { "Иван", "Марья", "Петр", "Антон", "Даша", "Борис",
+                    "Костя", "Игорь", "Анна", "Денис", "Андрей" };*/
 
             ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(CinemaActivity.this, R.layout.listview, values);
 
