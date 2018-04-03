@@ -54,7 +54,7 @@ public class EagleAndTailsActivity extends AppCompatActivity {
         mediaController.setAnchorView(gifImageView);
 
         try {
-Thread.sleep(1000);
+            //Thread.sleep(1000);
             if (chance == 1) {
                 Thread.sleep(1000);
                 imageButton.setImageResource(R.drawable.eagle);
