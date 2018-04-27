@@ -35,6 +35,20 @@
             android:layout_height="wrap_content"
             android:onClick="getEagle"
             android:text="Button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getGame"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/loto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="getLoto"
+            android:text="Loto" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
